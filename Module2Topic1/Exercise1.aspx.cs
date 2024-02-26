@@ -13,5 +13,10 @@ namespace Module1Exercise1
         {
 
         }
+
+        protected void Play_Click(object sender, EventArgs e)
+        {
+            nowPlaying.InnerText = "ELLIE by Alisson Shore is Playing";
+        }
     }
 }
